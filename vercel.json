@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "BUSINESS_NAME": "Joes Junkyard",
+    "TEMPLATE_ID": "modern-business",
+    "MODULES": "booking,gallery",
+    "THEME": "{\"businessName\":\"Joes Junkyard\",\"primaryColor\":\"#3B82F6\",\"accentColor\":\"#10B981\",\"fontFamily\":\"Inter, sans-serif\",\"logoUrl\":\"\"}"
+  }
+}
